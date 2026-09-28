@@ -41,8 +41,8 @@ One row per tool, one column per thing people actually check before committing. 
 | **[Flora AI](#2-flora-ai)** | Hosted MCP with OAuth | Yes | — | Image and video operations; model coverage varies | — | — |
 | **[Krea AI](#3-krea-ai)** | — | Yes | — | Image and video operations; model coverage varies | — | — |
 | **[Freepik Spaces](#4-freepik-spaces)** | Magnific hosted MCP; follow current official setup | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[n8n](#5-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,144 ★, n8n@2.40.7 |
-| **[Flowise](#6-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,489 ★, flowise@3.1.4 |
+| **[n8n](#5-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,188 ★, n8n@2.40.7 |
+| **[Flowise](#6-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,488 ★, flowise@3.1.4 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
