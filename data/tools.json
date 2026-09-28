@@ -1,0 +1,229 @@
+{
+  "keyword": "best ai workflow builders for agencies",
+  "title": "AI workflow builders for agency delivery and client handoff",
+  "lastChecked": "2026-09-28",
+  "capabilityChecks": [
+    {
+      "key": "visualGraph",
+      "label": "Visual graph"
+    },
+    {
+      "key": "restApi",
+      "label": "REST API"
+    },
+    {
+      "key": "workflowExecutionApi",
+      "label": "Workflow execution API"
+    },
+    {
+      "key": "selfHostedRuntime",
+      "label": "Self-hosted runtime"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": null,
+      "homepage": "https://www.wireflow.ai/ai-workflow-builder",
+      "docs": "https://www.wireflow.ai/docs",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Hosted MCP; see official connector setup",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/docs"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": true,
+        "selfHostedRuntime": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Flora AI",
+      "tagline": null,
+      "homepage": "https://flora.ai",
+      "docs": "https://developer.flora.ai/api/",
+      "pricing": null,
+      "claudeConnection": "Hosted MCP with OAuth",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Official CLI installation; this installs software but submits no generation:",
+          "lang": "bash",
+          "code": "go install github.com/florafauna-ai/flora-cli/cmd/flora@latest"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": true,
+        "selfHostedRuntime": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Krea AI",
+      "tagline": null,
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/developers/introduction",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.krea.ai/docs/developers/introduction"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": true,
+        "selfHostedRuntime": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Freepik Spaces",
+      "tagline": null,
+      "homepage": "https://www.magnific.com/spaces",
+      "docs": "https://docs.magnific.com/introduction",
+      "pricing": null,
+      "claudeConnection": "Magnific hosted MCP; follow current official setup",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. The older indexed Apps API guide returned 404 after redirecting to Magnific on 2026-09-21. Current full-workflow REST execution was not established in this review; this is uncertainty, not a claim that the capability is absent.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.magnific.com/introduction"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": null,
+        "selfHostedRuntime": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "n8n",
+      "tagline": null,
+      "homepage": "https://n8n.io",
+      "docs": "https://docs.n8n.io",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Orchestration of connected models and services",
+      "freeTier": "unverified",
+      "repo": "n8n-io/n8n",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. Self-hosting is available under n8n licensing terms; do not describe every commercial use as unrestricted open source.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.n8n.io"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": null,
+        "selfHostedRuntime": true
+      },
+      "live": {
+        "stars": 206144,
+        "lastPush": "2026-09-28T00:53:10Z",
+        "latestRelease": "n8n@2.40.7",
+        "latestReleaseDate": "2026-09-25",
+        "checkedAt": "2026-09-28"
+      }
+    },
+    {
+      "n": 6,
+      "name": "Flowise",
+      "tagline": null,
+      "homepage": "https://flowiseai.com",
+      "docs": "https://docs.flowiseai.com",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Orchestration of connected models and services",
+      "freeTier": "unverified",
+      "repo": "FlowiseAI/Flowise",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.flowiseai.com"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "workflowExecutionApi": true,
+        "selfHostedRuntime": true
+      },
+      "live": {
+        "stars": 55489,
+        "lastPush": "2026-08-13T12:38:19Z",
+        "latestRelease": "flowise@3.1.4",
+        "latestReleaseDate": "2026-07-29",
+        "checkedAt": "2026-09-28"
+      }
+    }
+  ]
+}
