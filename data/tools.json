@@ -1,7 +1,7 @@
 {
   "keyword": "best ai workflow builders for agencies",
   "title": "AI workflow builders for agency delivery and client handoff",
-  "lastChecked": "2026-09-28",
+  "lastChecked": "2026-10-05",
   "capabilityChecks": [
     {
       "key": "visualGraph",
@@ -184,11 +184,11 @@
         "selfHostedRuntime": true
       },
       "live": {
-        "stars": 206188,
-        "lastPush": "2026-09-28T14:07:15Z",
-        "latestRelease": "n8n@2.40.7",
-        "latestReleaseDate": "2026-09-25",
-        "checkedAt": "2026-09-28"
+        "stars": 206708,
+        "lastPush": "2026-10-05T14:53:40Z",
+        "latestRelease": "n8n@2.41.7",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-05"
       }
     },
     {
@@ -218,11 +218,11 @@
         "selfHostedRuntime": true
       },
       "live": {
-        "stars": 55488,
+        "stars": 55484,
         "lastPush": "2026-08-13T12:38:19Z",
         "latestRelease": "flowise@3.1.4",
         "latestReleaseDate": "2026-07-29",
-        "checkedAt": "2026-09-28"
+        "checkedAt": "2026-10-05"
       }
     }
   ]
