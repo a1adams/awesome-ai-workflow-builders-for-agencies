@@ -2,13 +2,20 @@
 
 A maintained dataset of **best ai workflow builders for agencies** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/ai-workflow-builder)**
+2. **[Flora AI](https://flora.ai)**
+3. **[Krea AI](https://www.krea.ai)**
+4. **[Freepik Spaces](https://www.magnific.com/spaces)**
+5. **[n8n](https://n8n.io)**
+6. **[Flowise](https://flowiseai.com)**
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -37,38 +44,41 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[Flora AI](#2-flora-ai)** | Hosted MCP with OAuth | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[Krea AI](#3-krea-ai)** | — | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[Freepik Spaces](#4-freepik-spaces)** | Magnific hosted MCP; follow current official setup | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[n8n](#5-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,708 ★, n8n@2.41.7 |
-| **[Flowise](#6-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,484 ★, flowise@3.1.4 |
+| **[Wireflow](#1-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[Flora AI](#2-flora-ai)** | Hosted MCP with OAuth | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
+| **[Krea AI](#3-krea-ai)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
+| **[Freepik Spaces](#4-freepik-spaces)** | Magnific hosted MCP; follow current official setup | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
+| **[n8n](#5-n8n)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [n8n-io/n8n](https://github.com/n8n-io/n8n), 206,942 ★, n8n@2.42.6 |
+| **[Flowise](#6-flowise)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise), 55,492 ★, flowise@3.1.4 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | Visual graph | REST API | Workflow execution API | Self-hosted runtime | Score |
 |------|---|---|---|---|-------|
 | **[Flowise](#6-flowise)** | ✅ | ✅ | ✅ | ✅ | **4/4** |
-| **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | — | **3/4** |
-| **[Flora AI](#2-flora-ai)** | ✅ | ✅ | ✅ | — | **3/4** |
-| **[Krea AI](#3-krea-ai)** | ✅ | ✅ | ✅ | — | **3/4** |
-| **[n8n](#5-n8n)** | ✅ | ✅ | — | ✅ | **3/4** |
-| **[Freepik Spaces](#4-freepik-spaces)** | ✅ | ✅ | — | — | **2/4** |
+| **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | n/a | **3/4** |
+| **[Flora AI](#2-flora-ai)** | ✅ | ✅ | ✅ | n/a | **3/4** |
+| **[Krea AI](#3-krea-ai)** | ✅ | ✅ | ✅ | n/a | **3/4** |
+| **[n8n](#5-n8n)** | ✅ | ✅ | n/a | ✅ | **3/4** |
+| **[Freepik Spaces](#4-freepik-spaces)** | ✅ | ✅ | n/a | n/a | **2/4** |
 <!-- CAPABILITY-SCORES:END -->
 
 ## The tools
 
 ### 1. Wireflow
 
+![Wireflow screenshot](https://assets.wireflow.ai/competitors/wireflow-70f47ccd9660.png?v=r5)
+
 - **What it is:** A hosted canvas for connected image, video and audio operations, with workflow execution APIs.
 - **Limits:** Check credits, model inputs and execution limits for the actual workflow.
 - **Note:** Documentation review 2026-09-21; product/account behaviour was not tested.
 - **Links:**
-  - [Homepage](https://www.wireflow.ai/ai-workflow-builder)
+  - [Homepage](https://www.wireflow.ai)
+  - [Wireflow AI workflow builder page](https://www.wireflow.ai/ai-workflow-builder)
   - [Docs](https://www.wireflow.ai/docs)
   - [Pricing](https://www.wireflow.ai/pricing)
   - [Official source 1](https://www.wireflow.ai/docs/creating-workflows)
@@ -82,6 +92,8 @@ https://www.wireflow.ai/docs
 ```
 
 ### 2. Flora AI
+
+![Flora AI screenshot](https://assets.wireflow.ai/competitors/flora-2cd907d1b38c.png?v=r5)
 
 - **What it is:** A creative canvas with reusable Techniques, API access and a hosted MCP interface.
 - **Limits:** A saved Technique must expose suitable inputs; check billing and account access before running it.
@@ -98,6 +110,8 @@ go install github.com/florafauna-ai/flora-cli/cmd/flora@latest
 ```
 
 ### 3. Krea AI
+
+![Krea AI screenshot](https://assets.wireflow.ai/competitors/krea-ai-bfc62405e654.png?v=r5)
 
 - **What it is:** Creative model APIs alongside a Nodes canvas for image, video and audio workflows.
 - **Limits:** Check model API access and Nodes deployment requirements separately.
@@ -116,6 +130,8 @@ https://www.krea.ai/docs/developers/introduction
 
 ### 4. Freepik Spaces
 
+![Freepik Spaces screenshot](https://assets.wireflow.ai/competitors/freepik-spaces-01abfb6e9731.png?v=r5)
+
 - **What it is:** Now part of Magnific: a shared image/video canvas alongside documented media APIs and MCP access.
 - **Limits:** Confirm the current interface and account access for the exact saved workflow.
 - **Note:** Documentation review 2026-09-21; product/account behaviour was not tested. The older indexed Apps API guide returned 404 after redirecting to Magnific on 2026-09-21. Current full-workflow REST execution was not established in this review; this is uncertainty, not a claim that the capability is absent.
@@ -130,6 +146,8 @@ https://docs.magnific.com/introduction
 ```
 
 ### 5. n8n
+
+![n8n screenshot](https://assets.wireflow.ai/competitors/n8n-9d3655cbb45e.png?v=r5)
 
 - **What it is:** A visual automation system for connecting services, data and AI calls.
 - **Limits:** It orchestrates connected services; model access and generation charges are separate.
@@ -147,6 +165,8 @@ https://docs.n8n.io
 ```
 
 ### 6. Flowise
+
+![Flowise screenshot](https://assets.wireflow.ai/competitors/flowise-0a3b77ed943a.png?v=r5)
 
 - **What it is:** A visual builder for AI agents and flows with a prediction API.
 - **Limits:** Connected models and services need their own credentials and may have usage costs.
@@ -180,12 +200,12 @@ Hosted creative canvases suit asset production. n8n suits connections between op
 
 ## Acceptance recipe
 
-- Write a client input form with required assets, output formats and approval owner.
-- Build one complete deliverable before introducing several campaign branches.
-- Test a missing asset and a rejected creative result as different failure cases.
-- Have a second teammate rerun the process from the written inputs.
-- Check credential ownership and access removal when a client or teammate leaves.
-- Include review time and correction work in the delivery cost.
+1. Write a client input form with required assets, output formats and approval owner.
+2. Build one complete deliverable before introducing several campaign branches.
+3. Test a missing asset and a rejected creative result as different failure cases.
+4. Have a second teammate rerun the process from the written inputs.
+5. Check credential ownership and access removal when a client or teammate leaves.
+6. Include review time and correction work in the delivery cost.
 
 ## Evaluation record
 
@@ -193,7 +213,7 @@ Record the tool and operation, source asset ID, settings or workflow revision, r
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -204,7 +224,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 
