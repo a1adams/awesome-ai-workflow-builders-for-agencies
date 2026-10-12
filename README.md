@@ -12,7 +12,7 @@ A maintained dataset of **best ai workflow builders for agencies** options: what
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-12** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -48,8 +48,8 @@ One row per tool, one column per thing people actually check before committing. 
 | **[Flora AI](#2-flora-ai)** | Hosted MCP with OAuth | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
 | **[Krea AI](#3-krea-ai)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
 | **[Freepik Spaces](#4-freepik-spaces)** | Magnific hosted MCP; follow current official setup | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
-| **[n8n](#5-n8n)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [n8n-io/n8n](https://github.com/n8n-io/n8n), 206,942 ★, n8n@2.42.6 |
-| **[Flowise](#6-flowise)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise), 55,492 ★, flowise@3.1.4 |
+| **[n8n](#5-n8n)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [n8n-io/n8n](https://github.com/n8n-io/n8n), 207,099 ★, n8n@2.42.7 |
+| **[Flowise](#6-flowise)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise), 55,494 ★, flowise@3.1.4 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
